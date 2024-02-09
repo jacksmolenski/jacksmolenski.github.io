@@ -2,9 +2,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: grey;
+    align-items: center;
+    background-color: #333;
     text-decoration: none;
     color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+li{
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 h1{
