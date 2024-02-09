@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flexbox Fun</title>
+<!--<link rel="stylesheet" href="index.css"> -->
 <style>
   /* Additional styles for fun */
   .red { background: tomato; }
@@ -11,6 +12,49 @@
   .green { background: mediumseagreen; }
   .orange { background: orange; }
   .purple { background: rebeccapurple; }
+
+    .flex-item {  
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .flex-container {
+        background-color: lightgrey;
+        justify-content: space-around;
+        display: flex;
+        padding: 15px;
+        flex-wrap: wrap;
+        
+    }
+    @media(min-width: 600px)
+    {
+        .flex-container {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex-item{
+            color: grey;
+        }
+    }
+    @media (min-width: 900px)
+    {
+        .flex-container {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-item {
+            color: purple;
+            margin-left:10px;
+            margin-right:10px;
+        }
+    }
 </style>
 
 </head>
@@ -22,6 +66,10 @@
     <main>
         <section class="flex-container">
             <div class="flex-item red">1</div>
+            <div class="flex-item blue">2</div>
+            <div class="flex-item green">3</div>
+            <div class="flex-item orange">4</div>
+            <div class="flex-item purple">5</div>
         </section>
     </main>
 

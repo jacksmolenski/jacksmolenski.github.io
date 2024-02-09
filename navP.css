@@ -1,0 +1,13 @@
+.navp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    padding: 15px;
+    font-size: 24px;
+}
