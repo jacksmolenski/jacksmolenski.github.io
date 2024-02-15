@@ -1,5 +1,7 @@
 # jacksmolenski.github.io
 
+github link: https://github.com/jacksmolenski/jacksmolenski.github.io
+
 Answer to Questions:
 
 1. Ways to host a website are resources such as AWS, Godaddy, Microsoft Azure
