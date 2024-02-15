@@ -1,4 +1,4 @@
-.navp {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -6,11 +6,11 @@
     background-color: #333;
     text-decoration: none;
     color: white;
+    padding-right: 10px;
 }
 a{
     text-decoration: none;
     color: white;
-
 }
 
 ul{
@@ -25,7 +25,32 @@ li{
     font-size: 20px;
 }
 
+a:hover{
+    color: green;
+}
+
 h1{
     padding: 15px;
     font-size: 24px;
 }
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+        flex-wrap: column;
+    }
+    
+    ul {
+        flex-direction: column;
+        padding: 0px;
+    }
+  
+    li {
+        margin: 10px;
+    }
+    a {
+        
+    }
+  }
